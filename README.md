@@ -3,3 +3,4 @@ If we want to connect two nodes in a network, we usually open a channel and dire
 In the real world, these nodes could be any terminal (PCs, mobile phones, etc.) controlled by a user. However, the goal of this experiment is to see if we can use the socket programming concept to connect cores belonging to the same processor and participate in solving a mathematical problem. 
 We used the Intel(R) Core(TM) i5-2430M CPU, which has two physical cores each can run two threads simultaneously, for a total of four threads. We will use these four threads as standalone cores despite the fact that we only  have two cores. 
 ##  Problem to be solved:
+<img src="https://latex.codecogs.com/svg.image?\int_{0}^{2\pi&space;}cos(x)&space;dx" title="\int_{0}^{2\pi }cos(x) dx" />
