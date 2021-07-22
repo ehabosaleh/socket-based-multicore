@@ -4,6 +4,6 @@ In the real world, these nodes could be any terminal (PCs, mobile phones, etc.) 
 We used the Intel(R) Core(TM) i5-2430M CPU, which has two physical cores each can run two threads simultaneously, for a total of four threads. We will use these four threads as standalone cores despite the fact that we only  have two cores. 
 ##  Problem to be solved:
 we aim to solve the domain partioning problem that relies on Riemman Sum concept. 
-In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations. 
+<p>In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations. </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Riemann_sum_convergence.png" width="300" height="300">
 <img src="https://latex.codecogs.com/svg.image?\bg_white&space;\int_{0}^{2\pi&space;}cos(x)&space;dx" title="\bg_white \int_{0}^{2\pi }cos(x) dx" />
