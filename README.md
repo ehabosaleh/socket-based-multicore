@@ -3,7 +3,7 @@ If we want to connect two nodes in a network, we usually open a channel and dire
 In the real world, these nodes could be any terminal (PCs, mobile phones, etc.) controlled by a user. However, the goal of this experiment is to see if we can use the socket programming concept to connect cores belonging to the same processor and participate in solving a mathematical problem. 
 We used the Intel(R) Core(TM) i5-2430M CPU, which has two physical cores each can run two threads simultaneously, for a total of four threads. We will use these four threads as standalone cores despite the fact that we only  have two cores. 
 ##  Problem to be solved:
-We aim to find the  integral of cos(x) in the domain <img src="https://latex.codecogs.com/svg.image?[0&space;-\pi&space;/2]" title="[0 \pi /2]" />, which is given in the following equation:
+We aim to find the  integral of cos(x) in the domain <img src="https://latex.codecogs.com/svg.image?[0&space;-\pi&space;/2]" title="[0 \pi /2]" />, which is given in the following equation:<br>
 <img src="https://latex.codecogs.com/svg.image?y=\int_{0}^{\pi/2}&space;cos(x)&space;dx" title="y=\int_{0}^{\pi/2} cos(x) dx" />  (1)
 <p>In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations. </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Riemann_sum_convergence.png" width="300" height="300" align="center">
