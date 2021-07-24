@@ -23,4 +23,4 @@ The code is available in five different files: <br>
 We run core 0.py first, then core 1.py, core 2.py, and core 3.py in any order. The core_0 will wait until it receives the final partial integral before displaying the final integral. 
 To make the core_0 expect receiving output from <i>n</i> cores we type the follwing command in terminal when we run the file code_0.py: <br>
 mpirun --oversubscribe -np 4 python3 core_0.py <br>
-Where 4 is the number of cores.
+Where 4 is the number of cores.<br>
