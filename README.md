@@ -15,7 +15,7 @@ We aim to find the  integral of cos(x) in the domain <img src="https://latex.cod
 <p>In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations. </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Riemann_sum_convergence.png" width="300" height="300" align="center">
 <p>The sum is calculated by partitioning the region into shapes (rectangles, trapezoids, parabolas, or cubics) that together form a region that is similar to the region being measured, then calculating the area for each of these shapes, and finally adding all of these small areas together. This approach can be used to find a numerical approximation for a definite integral even if the fundamental theorem of calculus does not make it easy to find a closed-form solution.</p> 
-##The Implementation
+## The Implementation
 The code is available in five different files: <br>
 <b>core_0.py</b>: Prepare the first core to open a socket, then send the function (function.py) with the appropriate parameters when it receives any response from the other three cores, and lastly, calculate the final result once all of the connected cores' results have been received. <br>
 <b>core_1.py, core_2.py, core_3.py</b>: Each file instructs the remaining cores to listen to the socket created by core_0 and receive the function file with its parameters, calculate the result, and return it to core_0. <br>
