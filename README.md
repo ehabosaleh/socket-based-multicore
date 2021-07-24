@@ -10,9 +10,8 @@ We aim to find the  integral of cos(x) in the domain <img src="https://latex.cod
  Where:<br>
  <img src="https://latex.codecogs.com/svg.image?h=(b-a)/pn&space;" title="h=(b-a)/pn " /> (3) <br>
  <img src="https://latex.codecogs.com/svg.image?ai=a&plus;i*n*h&space;" title="ai=a+i*jn*h " /> (4) <br>
- 
- 
- 
+ <img src="https://latex.codecogs.com/svg.image?aij=ai&plus;(j&plus;0.5)*h&space;" title="aij=ai+(j+0.5)*h " /> (5) <br>
+ p: the number of partions (number of cores), h is the number of icreament per partion. n: should be as big as possible for more accurate results.<br>
 <p>In mathematics, a Riemann sum is a certain kind of approximation of an integral by a finite sum. One very common application is approximating the area of functions or lines on a graph, but also the length of curves and other approximations. </p>
 <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Riemann_sum_convergence.png" width="300" height="300" align="center">
 <p>The sum is calculated by partitioning the region into shapes (rectangles, trapezoids, parabolas, or cubics) that together form a region that is similar to the region being measured, then calculating the area for each of these shapes, and finally adding all of these small areas together. This approach can be used to find a numerical approximation for a definite integral even if the fundamental theorem of calculus does not make it easy to find a closed-form solution.</p> 
